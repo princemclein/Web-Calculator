@@ -62,10 +62,6 @@ equalButton.addEventListener("click", () => {
   let secondNumber = display.textContent;
   justCalculated = true;
 
-  console.log("first:", firstNumber);
-  console.log("operator:", operatorUsed);
-  console.log("second:", secondNumber);
-
   if (operatorUsed === "+") {
     result = Number(firstNumber) + Number(secondNumber);
     display.textContent = result;
@@ -111,14 +107,4 @@ percentButton.addEventListener("click", () => {
   let number = Number(display.textContent);
   number = number / 100;
   display.textContent = number;
-});
-
-// Percent function
-parenthesisButton.addEventListener("click", () => {
-  display.textContent = "";
-  display.innerHTML = '<span class="small-parenthesis">Not yet working</span>';
-
-  setTimeout(() => {
-    display.textContent = "0";
-  }, 1000);
 });
