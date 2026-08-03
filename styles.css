@@ -101,6 +101,9 @@ button:active {
     min-height: 50px;
     border-radius: 6px;
   }
+  .small-parenthesis {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 320px) {
