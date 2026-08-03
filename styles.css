@@ -74,7 +74,9 @@ button:active {
   body {
     padding: 10px;
   }
-
+  main {
+    height: 100vh;
+  }
   .calculator {
     padding: 12px;
     border-radius: 12px;

@@ -106,4 +106,4 @@ decimalButton.addEventListener("click", () => {
   }
 });
 
-// Track if the calculator has just displayed a result
+// Percent function
