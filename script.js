@@ -7,6 +7,7 @@ const percentButton = document.querySelector(".percent");
 const parenthesisButton = document.querySelector(".parenthesis");
 const equalButton = document.querySelector(".equals");
 const decimalButton = document.querySelector(".decimal");
+
 let firstNumber = "";
 let operatorUsed = "";
 let result = 0;
