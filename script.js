@@ -65,20 +65,20 @@ equalButton.addEventListener("click", () => {
 
   if (operatorUsed === "+") {
     result = Number(firstNumber) + Number(secondNumber);
-    display.textContent = `Pautang ako ${result}, please :<<`;
+    display.textContent = result;
   } else if (operatorUsed === "-") {
     result = Number(firstNumber) - Number(secondNumber);
-    display.textContent = `Pautang ako ${result}, please :<<`;
+    display.textContent = result;
   } else if (operatorUsed === "x") {
     result = Number(firstNumber) * Number(secondNumber);
-    display.textContent = `Pautang ako ${result}, please :<<`;
+    display.textContent = result;
   } else if (operatorUsed === "/") {
     result = Number(firstNumber) / Number(secondNumber);
 
     if (Number(secondNumber) === 0) {
       display.textContent = "Error";
     } else {
-      display.textContent = `Pautang ako ${result}, please :<<`;
+      display.textContent = result;
     }
   }
 
